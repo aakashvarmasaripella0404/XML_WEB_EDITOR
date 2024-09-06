@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventory>
+    <products>
+        <product>
+            <name>Laptop</name>
+        </product>
+        <product>
+            <name>Smartphone</name>
+        </product>
+        <product>
+            <name>Television</name>
+        </product>
+    </products>
+    </inventory>

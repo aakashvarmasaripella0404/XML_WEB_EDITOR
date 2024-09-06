@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="left-box">
+            <img src="drdl.svg" class="logo" alt="Logo">
+            <div class="wrapper">
+                <ul class="sections">
+                    <h1>XML Editor</h1>
+                    <li><button id="uploadXmlBtn">Upload XML</button></li>
+                    <li><button id="addDataBtn" style="display:none;">Add New Data</button></li>
+                    <li><button id="saveBtn" style="display:none;">Save Changes</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-box">
+            <div class="container">
+                <h1>XML Editor</h1>
+                <div id="xmlDisplay"></div>
+                <div id="dataModal" class="modal" style="display:none;">
+                    <div class="modal-content">
+                        <span class="closeBtn">&times;</span>
+                        <h2>Add New Data</h2>
+                        <form id="addForm">
+                            <!-- Form inputs will be generated dynamically -->
+                        </form>
+                        <button id="submitDataBtn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="file" id="fileInput" style="display:none;">
+    <script src="script.js"></script>
+</body>
+</html>
